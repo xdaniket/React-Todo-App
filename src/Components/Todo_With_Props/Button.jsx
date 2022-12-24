@@ -1,0 +1,4 @@
+const TodoButton = ({ onClick, label }) => {
+  return <button onClick={onClick}>{label}</button>;
+};
+export default TodoButton;
